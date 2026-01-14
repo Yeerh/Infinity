@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    /* Build cache */
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    /* Target e libs */
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+
+    /* React */
+    "jsx": "react-jsx",
+
+    /* Módulos */
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+
+    /* Interop e compatibilidade */
+    "useDefineForClassFields": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Tipagens */
+    "types": ["vite/client"],
+
+    /* Qualidade e lint */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+
+    /* Alias (OBRIGATÓRIO PARA SHADCN) */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
+    /* Silencia aviso depreciação TS 6 */
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src"]
+}
