@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
-import rastromovilleImg from "@/assets/rastromoville.png";
-import pernambucoImg from "@/assets/pernambuco.png";
-import recadastramentoImg from "@/assets/recadastramento.png";
+import rastromovilleImg from "@/assets/projects/rastromoville.png";
+import pernambucoImg from "@/assets/projects/pernambuco.png";
+import recadastramentoImg from "@/assets/projects/recadastramento.png";
 
 const projects = [
   {

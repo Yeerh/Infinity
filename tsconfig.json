@@ -1,10 +1,11 @@
 {
-  "files": [],
+  "files": ["src/types/global.d.ts"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "ignoreDeprecations": "6.0"
   },
   "references": [
     { "path": "./tsconfig.app.json" },

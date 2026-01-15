@@ -1,4 +1,4 @@
-import CardNav from "@/components/ui/Cardnav";
+import CardNav from "@/components/ui/CardNav";
 import logo from "@/assets/logo.png"; // opcional (se existir)
 
 export function Navbar() {
