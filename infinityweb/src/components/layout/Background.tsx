@@ -3,7 +3,7 @@ import Dither from "@/components/ui/Dither";
 
 export function Background() {
   return (
-    <div className="fixed inset-0 -z-10">
+   <div className="pointer-events-none fixed inset-0 -z-10">
       <Dither
         waveColor={[0.49411764705882355, 0, 0.9019607843137255]}
         disableAnimation={false}
