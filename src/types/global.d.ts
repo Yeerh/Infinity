@@ -23,14 +23,3 @@ declare module "@/components/ui/Dither" {
   const Dither: React.ComponentType<any>;
   export default Dither;
 }
-
-module.exports = {
-  settings: {
-    'import/resolver': {
-      alias: {
-        map: [['@', './src']],
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.png', '.jpg', '.jpeg', '.svg'],
-      },
-    },
-  },
-};

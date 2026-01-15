@@ -7,7 +7,7 @@
     "useDefineForClassFields": true,
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "jsx": "react-jsx",
 
     "strict": true,
@@ -17,7 +17,6 @@
 
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "ignoreDeprecations": "6.0",
 
     "baseUrl": ".",
     "paths": {
